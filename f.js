@@ -1,1 +1,1 @@
-document.getElementById('hot-network-questions').remove()
+document.getElementById('hot-network-questions')?.remove()

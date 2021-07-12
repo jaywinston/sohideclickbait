@@ -5,8 +5,11 @@
   "content_scripts": [
     {
       "matches": [
+        "https://*.askubuntu.com/*",
+        "https://*.serverfault.com/*",
+        "https://*.stackexchange.com/*",
         "https://*.stackoverflow.com/*",
-        "https://*.stackexchange.com/*"
+        "https://*.superuser.com/*"
       ],
       "js": ["f.js"]
     }
